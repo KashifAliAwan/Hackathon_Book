@@ -1,5 +1,5 @@
-import {themes as prismThemes} from 'prism-react-renderer';
-import type {Config} from '@docusaurus/types';
+import { themes as prismThemes } from 'prism-react-renderer';
+import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
@@ -7,7 +7,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'AI-Native Textbook',
   tagline: 'Your AI-Generated Textbook on Physical AI and Humanoid Robotics',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon.png',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -86,9 +86,9 @@ const config: Config = {
         src: 'img/logo.svg',
       },
       items: [
-        {to: '/', label: 'Home', position: 'left'},
-        {to: '/chapter-1-introduction', label: 'Textbook', position: 'left'},
-        {to: '/about', label: 'About', position: 'left'},
+        { to: '/', label: 'Home', position: 'left' },
+        { to: '/chapter-1-introduction', label: 'Textbook', position: 'left' },
+        { to: '/about', label: 'About', position: 'left' },
         {
           href: 'https://github.com/GIAIC-PakistanZindabad/Hackathon_Book',
           label: 'GitHub',
@@ -100,46 +100,75 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'LEARN', // Section 1 Title
           items: [
             {
-              label: 'Tutorial',
-              to: '/docs/intro',
+              label: 'Start Your Journey',
+              to: '#', // Appropriate path here
+            },
+            {
+              label: 'Full Curriculum',
+              to: '#', // Appropriate path here
+            },
+            {
+              label: 'Learning Path',
+              to: '#', // Appropriate path here
             },
           ],
         },
         {
-          title: 'Community',
+          title: 'COMMUNITY', // Section 2 Title
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'YouTube',
+              href: 'https://www.linkedin.com/in/kashif-ali-awan/', // Appropriate URL here
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              label: 'LinkedIn',
+              href: 'https://www.linkedin.com/in/kashif-ali-awan/', // Appropriate URL here
             },
             {
-              label: 'X',
-              href: 'https://x.com/docusaurus',
+              label: 'Instagram',
+              href: 'https://www.linkedin.com/in/kashif-ali-awan/', // Appropriate URL here
+            },
+            {
+              label: 'Facebook',
+              href: 'https://www.linkedin.com/in/kashif-ali-awan/', // Appropriate URL here
             },
           ],
         },
         {
-          title: 'More',
+          title: 'RESOURCES', // Section 3 Title
           items: [
             {
-              label: 'Blog',
-              to: '/blog',
+              label: 'GitHub Repository',
+              href: 'https://github.com/GIAIC-PakistanZindabad/Hackathon_Book', // Jo aap ne original code mein diya tha
             },
             {
-              label: 'GitHub',
-              href: 'https://github.com/GIAIC-PakistanZindabad/Hackathon_Book',
+              label: 'AI Native Specification',
+              to: '#', // Appropriate path here
+            },
+            {
+              label: 'Example Projects',
+              to: '#', // Appropriate path here
+            },
+          ],
+        },
+        {
+          title: 'ABOUT', // Section 4 Title
+          items: [
+            {
+              label: 'Panaversity',
+              to: '#', // Appropriate path here
+            },
+            {
+              label: 'Our Mission',
+              to: '#', // Appropriate path here
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Kashif Ali Awan • AI Native Software Development • Free & Open Source`, // Screenshot ke mutabiq
     },
     prism: {
       theme: prismThemes.github,
