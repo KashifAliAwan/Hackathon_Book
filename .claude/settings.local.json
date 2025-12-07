@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(powershell.exe:*)",
+      "Bash(.specify/scripts/powershell/create-new-feature.ps1:*)",
+      "Bash(git fetch:*)",
+      "Bash(ls:*)",
+      "Bash(git checkout:*)",
+      "Bash(cat:*)",
+      "Bash(mkdir:*)",
+      "Bash(npm start)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
